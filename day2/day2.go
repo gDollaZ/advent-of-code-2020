@@ -26,8 +26,8 @@ func Run(corporatePolicies string) {
 			count2 += 1
 		}
 	}
-	fmt.Println(count)
-	fmt.Println(count2)
+	fmt.Println("Day2 Part I: ", count)
+	fmt.Println("Day2 Part II: ", count2)
 }
 
 func checkPassword2(val string, l int, h int, pw string) bool {

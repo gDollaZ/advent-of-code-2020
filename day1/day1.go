@@ -19,7 +19,7 @@ out:
 				continue
 			}
 			if v+v2 == 2020 {
-				fmt.Println(v * v2)
+				fmt.Println("Day1 Part I: ", v*v2)
 				break out
 			}
 		}
@@ -37,7 +37,7 @@ out:
 					continue
 				}
 				if v+v2+v3 == 2020 {
-					fmt.Println(v * v2 * v3)
+					fmt.Println("Day1 Part II: ", v*v2*v3)
 					return
 				}
 
