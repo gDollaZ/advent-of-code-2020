@@ -124,6 +124,9 @@ func isValidValue(field string, value string) bool {
 		}
 	case "pid":
 		pid := strings.Split(value, "")
+		if len(pid) != 9 {
+			return false
+		}
 		for i, v := range pid {
 			_, err := strconv.Atoi(v)
 			if err != nil {
