@@ -10,7 +10,6 @@ import (
 	"strings"
 )
 
-// TODO: this is showing 1 too many in part 2, need to fix
 func Run(passportList string) {
 	valid := 0
 	valid2 := 0
