@@ -14,7 +14,6 @@ func Run(passportList string) {
 	valid := 0
 	valid2 := 0
 	passports := getPassports(passportList)
-	fmt.Println(len(passports))
 	for _, p := range passports {
 		isValid := checkValidity(p, 1)
 		isValid2 := checkValidity(p, 2)
